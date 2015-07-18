@@ -1,0 +1,270 @@
+[system/locale]
+region='en_GB.UTF-8'
+
+[org/gnome/settings-daemon/plugins/smartcard]
+active=false
+
+[org/gnome/settings-daemon/plugins/power]
+idle-dim=false
+sleep-inactive-battery-type='nothing'
+sleep-inactive-ac-timeout=3600
+sleep-inactive-ac-type='nothing'
+sleep-inactive-battery-timeout=1800
+
+[org/gnome/settings-daemon/plugins/a11y-keyboard]
+active=false
+
+[org/gnome/settings-daemon/plugins/media-keys]
+screenshot-clip=''
+stop=''
+next=''
+magnifier-zoom-out=''
+control-center=''
+area-screenshot-clip=''
+play=''
+logout=''
+calculator=''
+email=''
+window-screenshot-clip=''
+media=''
+screencast=''
+window-screenshot='<Alt><Super>p'
+screenshot='<Super>p'
+screenreader=''
+magnifier-zoom-in=''
+home=''
+search=''
+www=''
+screensaver='<Primary><Alt>Delete'
+area-screenshot='<Primary><Super>p'
+magnifier=''
+pause=''
+eject=''
+on-screen-keyboard=''
+previous=''
+
+[org/gnome/settings-daemon/plugins/sharing]
+active=false
+
+[org/gnome/settings-daemon/plugins/xsettings]
+antialiasing='rgba'
+
+[org/gnome/settings-daemon/peripherals/keyboard]
+numlock-state='off'
+
+[org/gnome/shell/keybindings]
+toggle-message-tray=['<Super>z']
+open-application-menu=['<Super>grave']
+toggle-application-view=@as []
+toggle-overview=@as []
+focus-active-notification=@as []
+
+[org/gnome/shell]
+enabled-extensions=['drive-menu@gnome-shell-extensions.gcampax.github.com', 'windowsNavigator@gnome-shell-extensions.gcampax.github.com', 'topIcons@adel.gadllah@gmail.com', 'remove-dropdown-arrows@mpdeimos.com', 'unitylike-hotkey@webgyerek.net', 'straighttopbar@julienpecqueur.net', 'activities-config@nls1729', 'user-theme@gnome-shell-extensions.gcampax.github.com']
+app-picker-view=uint32 1
+favorite-apps=['term-a.desktop', 'term-b.desktop', 'firefox.desktop', 'skype.desktop', 'org.gnome.Nautilus.desktop']
+
+[org/gnome/shell/app-switcher]
+current-workspace-only=true
+
+[org/gnome/shell/window-switcher]
+app-icon-mode='thumbnail-only'
+
+[org/gnome/shell/extensions/user-theme]
+name='bended-larch'
+
+[org/gnome/shell/extensions/activities-config]
+activities-config-button-no-text=false
+activities-icon-padding=8
+activities-config-button-no-icon=true
+activities-config-button-icon-path='/home/as/.local/share/gnome-shell/extensions/activities-config@nls1729/face-smile-3.svg'
+original-activities-button-text='Activities'
+pointer-barriers-supported=true
+panel-hide-rounded-corners=true
+transparent-panel=0
+activities-text-padding=8
+panel-background-color-hex-rgb='#000000'
+activities-config-button-text='∷'
+activities-config-hot-corner=true
+first-enable=false
+
+[org/gnome/shell/extensions/app-keys]
+use-kp-keys=false
+close-overview=true
+use-kp-nw=false
+
+[org/gnome/charmap/window-state]
+maximized=true
+
+[org/gnome/charmap]
+last-char=uint32 8759
+group-by='block'
+font=@ms 'DejaVu Sans Mono 20'
+
+[org/gnome/antler]
+use-system=false
+
+[org/gnome/nautilus/preferences]
+show-move-to-trash-shortcut-changed-dialog=false
+click-policy='single'
+sort-directories-first=true
+
+[org/gnome/nautilus/window-state]
+maximized=true
+
+[org/gnome/nautilus/desktop]
+trash-icon-visible=false
+
+[org/gnome/desktop/interface]
+gtk-key-theme='Emacs'
+menus-have-tearoff=true
+menubar-accel='F1'
+font-name='Droid Sans 10'
+document-font-name='Droid Sans 10'
+toolbar-detachable=true
+gtk-im-module='gtk-im-context-simple'
+toolkit-accessibility=false
+menubar-detachable=true
+monospace-font-name='DejaVu Sans Mono 10'
+enable-animations=true
+gtk-theme='Adwaita'
+cursor-blink=false
+clock-show-date=true
+
+[org/gnome/desktop/notifications]
+show-banners=false
+show-in-lock-screen=false
+
+[org/gnome/desktop/media-handling]
+automount-open=false
+autorun-never=true
+
+[org/gnome/desktop/screensaver]
+picture-uri='file:////usr/share/gnome-control-center/pixmaps/noise-texture-light.png'
+color-shading-type='solid'
+primary-color='#888888'
+picture-options='wallpaper'
+secondary-color='#888888'
+
+[org/gnome/desktop/search-providers]
+disable-external=true
+
+[org/gnome/desktop/session]
+idle-delay=uint32 0
+
+[org/gnome/desktop/thumbnailers]
+disable-all=true
+
+[org/gnome/desktop/wm/preferences]
+num-workspaces=10
+auto-raise=false
+focus-new-windows='strict'
+audible-bell=false
+titlebar-font='Droid Sans 10'
+
+[org/gnome/desktop/wm/keybindings]
+move-to-workspace-left=@as []
+move-to-monitor-right=['<Primary><Super>Right']
+switch-to-workspace-left=@as []
+begin-move=@as []
+switch-to-workspace-10=['<Primary><Super>0']
+move-to-monitor-left=['<Primary><Super>Left']
+switch-to-workspace-1=['<Primary><Super>1']
+panel-run-dialog=['<Super>r']
+switch-to-workspace-3=['<Primary><Super>3']
+cycle-windows=@as []
+switch-to-workspace-5=['<Primary><Super>5']
+switch-to-workspace-4=['<Primary><Super>4']
+switch-to-workspace-2=['<Primary><Super>2']
+switch-to-workspace-6=['<Primary><Super>6']
+switch-to-workspace-7=['<Primary><Super>7']
+maximize=['<Super>Up']
+switch-to-workspace-9=['<Primary><Super>9']
+begin-resize=@as []
+switch-to-workspace-8=['<Primary><Super>8']
+toggle-fullscreen=['<Super>Return']
+panel-main-menu=@as []
+cycle-windows-backward=@as []
+unmaximize=['<Super>Down']
+cycle-group-backward=@as []
+cycle-panels-backward=@as []
+switch-to-workspace-right=@as []
+move-to-workspace-down=@as []
+move-to-workspace-1=['<Shift><Super>exclam']
+move-to-workspace-2=['<Shift><Super>at']
+move-to-workspace-last=@as []
+move-to-workspace-3=['<Shift><Super>numbersign']
+move-to-workspace-4=['<Shift><Super>dollar']
+minimize=@as []
+switch-applications=['<Super>Tab']
+switch-applications-backward=['<Shift><Super>Tab']
+switch-panels-backward=['<Primary><Shift><Super>Escape']
+switch-group=['<Super>Escape']
+move-to-monitor-down=@as []
+cycle-group=@as []
+activate-window-menu=['<Alt><Super>Escape']
+cycle-panels=@as []
+switch-to-workspace-down=@as []
+toggle-maximized=@as []
+move-to-workspace-up=@as []
+move-to-workspace-right=@as []
+switch-group-backward=['<Shift><Super>Escape']
+switch-panels=['<Primary><Super>Escape']
+move-to-monitor-up=@as []
+close=['<Super>Delete']
+switch-to-workspace-last=@as []
+switch-to-workspace-up=@as []
+
+[org/gnome/desktop/a11y/applications]
+screen-keyboard-enabled=false
+
+[org/gnome/desktop/sound]
+event-sounds=false
+
+[org/gnome/desktop/background]
+picture-uri='file:////usr/share/gnome-control-center/pixmaps/noise-texture-light.png'
+color-shading-type='solid'
+primary-color='#444444'
+picture-options='wallpaper'
+secondary-color='#444444'
+
+[org/gnome/desktop/input-sources]
+show-all-sources=false
+current=uint32 0
+sources=[('xkb', 'us'), ('xkb', 'ru')]
+xkb-options=['compose:ralt']
+
+[org/gnome/login-screen]
+enable-smartcard-authentication=false
+enable-fingerprint-authentication=false
+
+[org/gnome/nm-applet]
+suppress-wireless-networks-available=true
+disable-connected-notifications=true
+
+[org/gnome/mutter]
+dynamic-workspaces=true
+edge-tiling=true
+overlay-key='Super_R'
+focus-change-on-pointer-rest=true
+workspaces-only-on-primary=true
+attach-modal-dialogs=true
+center-new-windows=true
+
+[org/gtk/settings/file-chooser]
+sort-column='name'
+show-size-column=true
+startup-mode='cwd'
+show-hidden=false
+sort-directories-first=false
+sort-order='ascending'
+location-mode='path-bar'
+
+[apps/telepathy-logger]
+enabled=false
+
+[ca/desrt/dconf-editor]
+window-is-fullscreen=false
+window-height=0
+window-width=0
+window-is-maximized=true

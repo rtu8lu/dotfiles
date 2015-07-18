@@ -1,0 +1,10 @@
+#TabsToolbar {
+    height: 0px !important;
+    overflow: hidden !important;
+}
+
+#new-tab-button {
+    list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA3XAAAN1wFCKJt4AAAAB3RJTUUH3QoUFy0fQ/Sf1wAAAC5JREFUOMtjYBjewMYn5r+NT8x/fGqYKLVk4A1gRPczMZqObFnCSDUXjMbCsAAA6UcLnLXaQ88AAAAASUVORK5CYII=) !important;
+    -moz-image-region: rect(0,16px,16px,0) !important;
+    opacity: 1.0;
+}

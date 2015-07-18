@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=term-b
+Exec=term-b
+Icon=utilities-terminal
+X-GNOME-SingleWindow=true

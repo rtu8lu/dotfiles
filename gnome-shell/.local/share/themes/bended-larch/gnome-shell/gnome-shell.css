@@ -1,0 +1,35 @@
+stage {
+    font-family: Droid Sans, Sans-Serif;
+    font-size: 11pt;
+    color: #ccc;
+}
+
+#panel {
+    background-color: transparent;
+    font-weight: normal;
+}
+
+#panel .panel-button {
+    font-weight: normal;
+    color: #eee;
+}
+
+.notification-banner {
+    margin: 2px;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #555;
+    border-radius: 6px;
+}
+
+.notification-banner * {
+    padding: 0;
+    width: 8px;
+    height: 8px;
+    color: transparent !important;
+    font-size: 0px;
+}
+
+.message-content {
+    font-size: 88%;
+}

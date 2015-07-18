@@ -1,0 +1,7 @@
+[diff]
+	algorithm = patience
+[push]
+	default = simple
+[user]
+	email = errr@vohkarts.com
+	name = errr
