@@ -7,6 +7,7 @@ OBJECTS = \
   .profile \
   .screenrc \
   .tmux.conf \
+  .config/locale.conf \
   .config/fish/config.fish \
   .config/fish/functions/fish_prompt.fish \
   .config/fish/functions/color_echo.fish \
