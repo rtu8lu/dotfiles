@@ -58,10 +58,12 @@ fi
 
 [[ $- == *i* ]] || return
 
-keychain --confhost --noinherit --nogui --ignore-missing .ssh/id_rsa
+if type -t keychain >/dev/null; then
+    keychain --noinherit --nogui --ignore-missing .ssh/id_rsa
 
-if [ -e "$HOME/.keychain/$(hostname)-sh" ]; then
-    source "$HOME/.keychain/$(hostname)-sh"
+    if [ -e "$HOME/.keychain/$(hostname)-sh" ]; then
+        source "$HOME/.keychain/$(hostname)-sh"
+    fi
 fi
 
 case "${!SHELLFICTION_BOOTSTRAP_*}" in
