@@ -1,10 +1,6 @@
 OBJECTS = \
-  .bashfiction \
-  .bashrc \
-  .bash.d/.keep \
   .gitconfig \
   .inputrc \
-  .profile \
   .screenrc \
   .tmux.conf \
   .config/locale.conf \
