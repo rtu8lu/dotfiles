@@ -1,0 +1,4 @@
+WebBrowser=chromium
+FileManager=Thunar
+TerminalEmulator=custom-TerminalEmulator
+
