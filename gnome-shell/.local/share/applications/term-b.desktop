@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
 Name=term-b
-Exec=term-b
+Exec=bash -l -c term-b
 Icon=utilities-terminal
 X-GNOME-SingleWindow=true
