@@ -139,12 +139,12 @@
   :bind (("C-x g" . helm-do-ag)))
 
 (use-package crux
-  :ensure t
   :bind (([remap move-beginning-of-line] . crux-move-beginning-of-line)
          ([remap open-line] . crux-smart-open-line)
          ("M-o" . crux-smart-open-line-above)
          ([remap electric-newline-and-maybe-indent]
-          . crux-kill-line-backwards)))
+          . crux-kill-line-backwards)
+         ("C-M-j" . crux-top-join-line)))
 
 (use-package avy
   :bind (("C-x ," . avy-goto-word-or-subword-1)
