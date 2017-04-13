@@ -37,8 +37,7 @@
 
 (setq-default c-default-style "linux")
 
-(setq ispell-program-name "aspell"
-      ispell-extra-args '("--sug-mode=ultra"))
+(setq-default ispell-program-name "hunspell")
 
 ;; local lisp packages
 (add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
@@ -174,15 +173,6 @@
 
 (use-package imenu-anywhere
   :bind ("C-c i" . imenu-anywhere))
-
-(use-package flyspell
-  :ensure nil
-  :config
-  (add-hook 'prog-mode-hook
-            ;; swith flyspell to prog-mode but leave inactive
-            (lambda ()
-              (flyspell-prog-mode)
-              (flyspell-mode 0))))
 
 (use-package company
   :diminish company-mode
