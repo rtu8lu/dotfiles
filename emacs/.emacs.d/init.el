@@ -96,23 +96,17 @@
   :config
   (add-hook 'prog-mode-hook 'rainbow-delimiters-mode))
 
-(use-package smartparens-config
-  :ensure smartparens
-  :diminish smartparens-mode
+(use-package paren
+  :ensure nil
   :config
-  (add-hook 'prog-mode-hook 'smartparens-mode)
-  (add-hook 'markdown-mode-hook 'smartparens-mode)
-  (setq sp-autodelete-pair nil
-        sp-autoinsert-pair nil
-        sp-escape-wrapped-region nil
-        sp-escape-quotes-after-insert nil)
-  (show-smartparens-global-mode t)
+  (setq show-paren-delay 0.1)
+  (show-paren-mode 1)
   (custom-set-faces
-   '(sp-show-pair-match-face
+   '(show-paren-match
      ((t (:inherit nil
           :weight extra-bold
           :underline unspecified))))
-   '(sp-show-pair-mismatch-face
+   '(show-paren-mismatch
      ((t (:inherit nil
           :weight extra-bold
           :underline unspecified))))))
