@@ -83,7 +83,7 @@
   (add-hook 'prog-mode-hook #'whitespace-mode)
   (add-hook 'text-mode-hook #'whitespace-mode)
   :config
-  (setq whitespace-line-column 80)
+  (setq whitespace-line-column 79)
   (setq whitespace-style '(face tabs empty trailing lines-tail))
   ;; colors according to the theme
   (custom-set-faces
