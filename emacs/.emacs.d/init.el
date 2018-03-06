@@ -176,6 +176,11 @@
   (setq company-idle-delay nil)
   (global-company-mode))
 
+(use-package python-mode
+  :config
+  ;; fix ugly indentation
+  (setq py-indent-paren-spanned-multilines-p nil))
+
 ;;
 (dolist (p '(yaml-mode
              markdown-mode
